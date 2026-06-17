@@ -52,7 +52,7 @@ const generateToken = (user) => {
     },
     process.env.JWT_SECRET,
     {
-      expiresIn: "7d",
+      expiresIn: "1d", //In this example, the token will expire in 1 day. You can adjust this as needed.
     }
   );
 };
